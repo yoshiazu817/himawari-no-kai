@@ -1,0 +1,243 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #4d2600;
+  background-color: #f8f8cf;
+
+}
+/****** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+/*** Base Typography ***/
+h1 {
+  font-size: 56px;
+  font-weight: 400;
+  color: #ffd204;
+  padding-top: 88px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 88px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #799423;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 24px;
+  margin-top: 0;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+p {
+  line-height: 32px;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cta-btn a {
+  color: #ffffff;
+  text-align: center;
+  background-color: #ffd204;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.cta-btn a:hover {
+  color: #4d2600;
+}
+
+/*** Specific Typography ***/
+.full-width h2 {
+  margin-top: 0;
+}
+
+/*** HEADER Section ***/
+header {
+  clear: both;
+  margin-top: 88px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  font-size: 16px;
+  padding-right: 20px;
+  color: #4d2600;
+}
+nav ul li a:hover {
+  text-decoration: underline #ffd204 solid;
+}
+
+#logo {
+  text-align: center;
+}
+
+#member-access {
+  text-align: right;
+}
+
+#member-access-btn a {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*** HERO Section ***/
+#hero  {
+  padding-top: 56px;
+  text-align: center;
+}
+
+#hero h3 {
+  color: #4d2600;
+  padding-bottom: 72px;
+}
+
+/*** ABOUT Section ***/
+#about {
+  background-color: #ffd204;
+  padding: 0 0 160px;
+  background-image: url("../img/sunflowers-border.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+
+#about p {
+  padding: 0 96px;
+}
+
+
+/*** PROGRAMS Section ***/
+
+#programs {
+  text-align: center;
+  background-color: #d0dab2;
+  overflow: auto;
+}
+
+#programs .third-width {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#programs p {
+  padding: 0 30px;
+}
+
+.icon {
+  margin-bottom: 24px;
+}
+
+/*** NEWS Section ***/
+#news {
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+#twitter-embed {
+    margin-top: -50px;
+}
+
+twitter-widget#twitter-widget-0 {
+    margin-top: -7px !important;
+}
+
+#news h2 {
+  color: #ffd204;
+}
+
+#cta-contact-lg {
+  margin: 50px 0;
+}
+
+#cta-contact-lg  a{
+  font-size: 24px;
+  padding: 4px 24px;
+}
+
+#news .half-width {
+  margin-bottom: 80px;
+}
+
+/*** FOOTER Section ***/
+footer {
+  color: #ffffff;
+  background-color: #799423;
+  height: 250px;
+  padding-top: 48px;
+}
+
+footer ul {
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+footer ul li{
+  padding-bottom: 24px;
+}
+
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #ffd204;
+}
+.fineprint {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.copyright {
+  font-size: 12px;
+  margin-top: 48px;
+}
+
+.text-divider {
+  color: #bcc991;
+  padding: 0 24px;
+
+}
